@@ -9,12 +9,25 @@
 </head>
 <body>
 <header>
-<nav>
-<ul>
-<li>Our Company</li>
-<li>Our Service</li>
-<li>Customer Support</li>
-</ul>
+<nav class="top-bar" data-topbar role="navigation">
+  <ul class="title-area">
+    <li class="name">
+      <h1><a href="#">Otte Oil &amp Propane</a></h1>
+    </li>
+    <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone --> 
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  </ul>
+  <section class="top-bar-section">
+    <!-- Left Nav Section --> 
+    <ul class="right">
+      <li><a href="#">Our Company</a></li>
+    <!-- Right Nav Section --> 
+    <ul class="right">
+      <li class="active"><a href="#">Our Service</a></li>
+    <ul class="right">
+      <li><a href="#">Customer Support</a></li>  
+        </ul>
+  </section>
 </nav>
 </header>
 <h2>Customized Delivery Schedule</h2>
@@ -72,34 +85,43 @@ Coming Soon we are in the process of setting up more fill stations in Lincoln.
 <img src="" alt="google map of autogas locations"/>
 <p>propane exchange</p>
 <p>autogas locations</p>
-<footer> 
-<ul class="small-block-grid-3">
-<li><h5>CONTACT US</h5>
-<p>Otte Oil</p>
-<p>3425 Maple Street</p>
-<p>PO Box 38</p>
-<p>Davey, NE</p>
-**blank line**
-<h6>402.785.2365</h6>
-<h6>otteoil@hotmail.com</h6></li>
-<li><h5>Like us on Facebook!</h5>
-<img src="" alt="facebook icon"/>
-<form>
-Send us an email now!<br>
-<input type="text" name="firstname">
-<br>
-<input type="submit" value="send">
-</form>
-<!--sitemap links-->
-<a href="">Our Company</a>
-<a href="">Our Service</a>
-<a href="">Customer Support</a></li>
-<li><img src="" href=""/><!--Propane link one w/image-->
-<img src="" href=""/><!--Propane link two w/image--></li>
-</ul>
-&copy;copyright 2015
-</footer>
-<script src="js/vendor/jquery.js"></script> 
+ <footer>
+
+ <ul class="small-block-grid-1 large-block-grid-3 medium-block-grid-3" > 
+  <li><h5>CONTACT US</h5>
+      <h6>Otte Oil</h6>
+      <h6>3425 Maple Street</h6>
+      <h6>PO Box 38</h6>
+      <h6>Davey, NE</h6>
+      **blank line**
+      <h6>402.785.2365</h6>
+      <h6>otteoil@hotmail.com</h6></li>
+  
+  <li><h5>Like us on Facebook!</h5>
+      <img src="" alt="facebook icon"/>
+      <form>
+        Send us an email now!<br>
+        <input type="text" name="firstname">
+        <br>
+        <input type="submit" value="send">
+      </form></li> 
+  
+  <li><img src="images/PropaneAG-CMYK-H-CAE-tag.jpg" alt="propane autogas logo" href="http://www.propane.com/on-road-fleets/"/>
+      <img src="" alt="propane association logo" href=""/><!--Propane link two w/image--></li> </ul>
+
+      <!--Column 1-->
+      
+      <!--Column 2-->
+      
+      <!--sitemap links-->
+      <a href="">Our Company</a>
+      <a href="">Our Service</a>
+      <a href="">Customer Support</a>
+      <!--Column 2-->
+      
+      &copy;copyright 2015
+    </footer>
+    <script src="js/vendor/jquery.js"></script> 
 <script src="js/foundation.min.js"></script>
 <script>
   $(document).foundation();
