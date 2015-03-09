@@ -12,6 +12,7 @@ iframe {
   position:absolute;
   border:solid 1px #000;
   z-index:0;
+  margin-bottom: 600px;
 }
 #front {
   position: absolute;
