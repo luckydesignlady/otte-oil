@@ -5,15 +5,12 @@ body {
   margin:0;
   padding:0;
 }
+
 .container {
   position:relative;
   height:480px;
 }
-iframe {
-  position:absolute;
-  border:solid 1px #000;
-  z-index:0;
-}
+
 #front {
   position: absolute;
   width:100px;
@@ -23,6 +20,7 @@ iframe {
   background:yellow;
   box-shadow:0 0 10px #666; 
 }
+
 .arrow-down {
   position:absolute;
   right: 0;
@@ -34,6 +32,7 @@ iframe {
 	border-top: 150px solid #C05A44;
   z-index:1;
 }
+
 .arrow-left {
   position:absolute;
   right: 0;
@@ -44,6 +43,7 @@ iframe {
 	border-right:150px solid #182F4E; 
   z-index:1;
 }
+
  .autogas p{
   font-family: pt sans;
   position: absolute;
@@ -52,6 +52,7 @@ iframe {
   top: 90px;
   right: 90px;
 }
+
  .propane p{
   font-family: pt sans;
   position: absolute;
@@ -60,6 +61,7 @@ iframe {
   top: 178px;
   right: 8px;
 }
+
 footer{
 	clear: both;
 }
