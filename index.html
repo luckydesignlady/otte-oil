@@ -8,6 +8,52 @@
     <link rel="stylesheet" href="css/styles.css"/>
     <link rel="stylesheet" href="css/main.css"/>
     <script src="js/vendor/modernizr.js"></script>
+    <style type="text/css">
+      /*this is ella, I'm working on some of the hero stuff*/
+      #homepage-hero {
+        background: url(images/temp-hero.jpg) #074e68;
+        height: 650px;
+        text-align: left;
+        position: relative;
+        padding: 100px 20px 0 20px; 
+      }
+      @media screen and (max-width: 768px) {
+        #homepage-hero {
+          padding: 40px 5px 30px 5px; } }
+      @media screen and (max-width: 1024px) {
+        #homepage-hero {
+          height: 500px; } }
+      @media screen and (max-width: 768px) {
+        #homepage-hero h1 {
+          font-size: 50px; } }
+
+      #homepage-hero p {
+        position: absolute;
+        bottom: 10px;
+        width: 100%;
+      }
+
+      /* commenting this out for later *//*
+      #homepage-hero img {
+        max-width: 50%;
+        position: absolute;
+        right: 100px;
+        top: 30px; }
+      @media only screen and (max-width: 40em) {
+        #homepage-hero .floatingyeti img {
+          width: 100%;
+          position: relative;
+          right: 0;
+          bottom: 0px;
+          top: 0px;
+          left: 120px; } }
+      @media only screen and (min-width:40.063em) and (max-width:64em) {
+        #homepage-hero .floatingyeti img {
+          width: 100%;
+          position: absolute;
+          right: 0;
+          bottom: 0px; } }*/
+    </style>
   </head>
   
   <body>
@@ -35,6 +81,16 @@
         </section>
       </nav>
     </header>
+    <!-- this is the part Ella is working on -->
+    <header id="homepage-hero" role="banner">
+      <div class="row">
+        <div class="large-6 columns right">
+          <h1><img src="images/logo-oop-white.png" alt="OOP Otte Oil and Propane Davey, NE 785-2365"/></h1>
+        </div>
+        <p class="text-center">40 Years of Reliable Service in Nebraska</p>
+      </div>
+    </header>
+    <!-- end part Ella is working on -->
     
     <div class="row">
       <img class="small-6 columns right" src="images/logo-oop-black.svg" alt="OOP Logo"/>
