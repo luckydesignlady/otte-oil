@@ -10,6 +10,13 @@ dl div, dl li {
 	font-size:12px;
 }
 
+.column,
+.columns {
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+  float: left; }
+
 .map-overlay {
    background:transparent; 
    position:relative; 
@@ -90,6 +97,7 @@ dl div, dl li {
 	text-align:center
 }
 
+<<<<<<< Updated upstream
 
 
 /*Footer styles*/
@@ -110,3 +118,25 @@ form {
 	color: #182F4E;
 	background-color: #FFF;
 }
+=======
+.top-bar-section ul li.active > a {
+      background: #C05A44;
+      color: #FFFFFF; }
+	  
+.top-bar-section ul li.active > a:hover {
+        background: #C05A44;
+        color: #FFFFFF; }
+	  
+.top-bar-section ul li > a {
+      display: block;
+      width: 100%;
+      color: #FFFFFF;
+      padding: 12px 0 12px 0;
+      padding-left: 0.9375rem;
+      font-family: PT Sans, sans serif;
+      font-size: 0.8125rem;
+      font-weight: normal;
+      text-transform: none; }
+	  
+>>>>>>> Stashed changes
+
