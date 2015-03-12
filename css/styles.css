@@ -106,7 +106,11 @@ form {
 }
 
 /*Navigation Styles*/
-.top-bar-section {
-	color: #182F4E;
-	background-color: #FFF;
+.top-bar {
+	background-color:#fff;
 }
+
+.top-bar a{
+	color:#182F4E;
+}
+
