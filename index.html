@@ -11,11 +11,11 @@
     <style type="text/css">
       /*this is ella, I'm working on some of the hero stuff*/
       #homepage-hero {
-        background: url(images/temp-hero.jpg) #074e68;
-        height: 650px;
+        background: url(images/temp-hero.jpg) #D7E8F1;
+        height: 550px;
         text-align: left;
         position: relative;
-        padding: 100px 20px 0 20px; 
+        padding: 60px 20px 0 20px; 
       }
       @media screen and (max-width: 768px) {
         #homepage-hero {
@@ -27,18 +27,21 @@
         #homepage-hero h1 {
           font-size: 50px; } }
 
-      #homepage-hero p {
+      #homepage-hero .text-center {
         position: absolute;
-        bottom: 10px;
+        margin-left:-20px; /*compensates for padding in hero*/
+        bottom: 20px;
         width: 100%;
+        font-size: 3rem;
+      	text-transform: uppercase;
+      	line-height: 3.25rem;
+      	color: #C05A44;
+      	text-align: center;
+      	font-weight: bolder; /*change this later to font bold if available, not faux bold*/
       }
 
+
       /* commenting this out for later *//*
-      #homepage-hero img {
-        max-width: 50%;
-        position: absolute;
-        right: 100px;
-        top: 30px; }
       @media only screen and (max-width: 40em) {
         #homepage-hero .floatingyeti img {
           width: 100%;
@@ -85,10 +88,10 @@
     <header id="homepage-hero" role="banner">
       <div class="row">
         <div class="large-6 columns right">
-          <h1><img src="images/logo-oop-white.png" alt="OOP Otte Oil and Propane Davey, NE 785-2365"/></h1>
+          <h1><img src="images/logo-oop-white.svg" alt="OOP Otte Oil and Propane Davey, NE 785-2365"/></h1>
         </div>
-        <p class="text-center">40 Years of Reliable Service in Nebraska</p>
       </div>
+      <p class="text-center">40 Years of Reliable Service</p>
     </header>
     <!-- end part Ella is working on -->
     
