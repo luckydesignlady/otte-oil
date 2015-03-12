@@ -104,3 +104,9 @@ footer p{
 form {
 	font-size:12px;
 }
+
+/*Navigation Styles*/
+.top-bar-section {
+	color: #182F4E;
+	background-color: #FFF;
+}
