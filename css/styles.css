@@ -18,6 +18,9 @@ dl div, dl li {
    top:480px;
    margin-top:-480px;
 }
+
+
+/*Tab Styling*/
 .tabs dd, .tabs .tab-title {
   border-right: 2px solid #fff;
   position:relative;
@@ -85,4 +88,19 @@ dl div, dl li {
 	font-size:20px;
 	color:white;
 	text-align:center
+}
+
+
+
+/*Footer styles*/
+footer h2, footer a {
+	font-size:16px;
+}
+
+footer p{
+	font-size:12px;
+}
+
+form {
+	font-size:12px;
 }
