@@ -1713,12 +1713,14 @@ meta.foundation-mq-topbar {
       margin-top: 2.8125rem; }
 
 .top-bar {
-  overflow: hidden;
-  height: 2.8125rem;
-  line-height: 2.8125rem;
-  position: relative;
-  background: #333333;
-  margin-bottom: 0; }
+	overflow: hidden;
+	height: 2.8125rem;
+	line-height: 2.8125rem;
+	position: relative;
+	background: #333333;
+	margin-bottom: 0;
+	background-color: #FFFFFF;
+}
   .top-bar ul {
     margin-bottom: 0;
     list-style: none; }
