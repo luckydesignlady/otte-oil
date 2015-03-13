@@ -6,8 +6,61 @@
     <title>Our Company</title>
     <link rel="stylesheet" href="css/foundation.css"/>
     <link rel="stylesheet" href="css/styles.css"/>
+<<<<<<< HEAD
      <link rel="stylesheet" href="css/holly.css"/>
+=======
+    <link rel="stylesheet" href="css/main.css"/>
+>>>>>>> FETCH_HEAD
     <script src="js/vendor/modernizr.js"></script>
+    <style type="text/css">
+      /*this is ella, I'm working on some of the hero stuff*/
+      #homepage-hero {
+        background: url(images/temp-hero.jpg) #D7E8F1;
+        height: 550px;
+        text-align: left;
+        position: relative;
+        padding: 60px 20px 0 20px; 
+      }
+      @media screen and (max-width: 768px) {
+        #homepage-hero {
+          padding: 40px 5px 30px 5px; } }
+      @media screen and (max-width: 1024px) {
+        #homepage-hero {
+          height: 500px; } }
+      @media screen and (max-width: 768px) {
+        #homepage-hero h1 {
+          font-size: 50px; } }
+
+      #homepage-hero .text-center {
+        position: absolute;
+        margin-left:-20px; /*compensates for padding in hero*/
+        bottom: 20px;
+        width: 100%;
+        font-size: 3rem;
+      	text-transform: uppercase;
+      	line-height: 3.25rem;
+      	color: #C05A44;
+      	text-align: center;
+      	font-weight: bolder; /*change this later to font bold if available, not faux bold*/
+      }
+
+
+      /* commenting this out for later *//*
+      @media only screen and (max-width: 40em) {
+        #homepage-hero .floatingyeti img {
+          width: 100%;
+          position: relative;
+          right: 0;
+          bottom: 0px;
+          top: 0px;
+          left: 120px; } }
+      @media only screen and (min-width:40.063em) and (max-width:64em) {
+        #homepage-hero .floatingyeti img {
+          width: 100%;
+          position: absolute;
+          right: 0;
+          bottom: 0px; } }*/
+    </style>
   </head>
   
   <body>
@@ -17,7 +70,6 @@
           <li class="name">
             <a href="#">Otte Oil &amp; Propane</a>
           </li>
-          <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone --> 
           <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
         </ul>
         <section class="top-bar-section right">
@@ -35,10 +87,22 @@
         </section>
       </nav>
     </header>
+    <!-- this is the part Ella is working on -->
+    <header id="homepage-hero" role="banner">
+      <div class="row">
+        <div class="large-6 columns right">
+          <h1><img src="images/logo-oop-white.svg" alt="OOP Otte Oil and Propane Davey, NE 785-2365"/></h1>
+        </div>
+      </div>
+      <p class="text-center">40 Years of Reliable Service</p>
+    </header>
+    <!-- end part Ella is working on -->
     
     <div class="row">
-      <img class="small-6 columns right" src="images/logo-oop-black.png" alt="OOP Logo"/>
+      <img class="small-6 columns right" src="images/logo-oop-black.svg" alt="OOP Logo"/>
       <h1 class="left">Otte Oil &amp; Propane<span class="row">40 Years of Reliable Service in Nebraska</span></h1>
+      
+      <section class="index-feature">
       <h2 class="left">Now Offering Propane Autogas</h2>
       <p class="left">A safe, economical, and environmentally friendly option for fleet and personal vehicles.</p>
       <a class="left" href=“”>Learn More</a>    <!--This is a pretty button-->
@@ -50,7 +114,9 @@
       <div class="large-4 columns"><a href="">Premium Bottle Services</a></div>
       <div class="large-4 columns"><a href="">24&frasl;7 Emergency Service</a></div>
     </div>
+    </section>
     
+   <section>
     <div class="row">
       <div class="large-4 columns"></div>
       <div class="large-8 columns">
@@ -58,7 +124,9 @@
         <p>Otte Oil &amp; Propane is pleased to be able to serve you. We are a small, family owned and operated company in Southeast Nebraska committed to providing quality service at a quality price, working with your schedule to make sure that your propane needs are effectively met.</p>
       </div>
     </div>
+  </section>
     
+    <section>
     <div class="row">
       <div class="large-4 columns"><img src="http://placehold.it/350x150" alt="photo of X"/></div>
       <div class="large-8 columns">
@@ -73,10 +141,12 @@
         <p>Otte Oil&#39;s Budget Billing Program gives you peace-of-mind by letting you plan exactly what your propane payment will be by spreading your annual heating costs evenly throughout the year.</p>
       </div>
     </div>
+    </section>
     
     <footer>
     	<div class="row contact">	
       		<div class="small-4 large-4 medium-4 columns" >
+<<<<<<< HEAD
             <h2>Contact Us</h2>
             <p class="room">Otte Oil &amp; Propane</p>
             <p>3425 Maple Street</p>
@@ -102,6 +172,30 @@
               <img class="outside" src="images/logo-npga.png" alt="propane association logo"/></a>
           </div>
       </div>
+=======
+          <h2>Contact Us</h2>
+          <p>Otte Oil</p>
+          <p>3425 Maple Street</p>
+          <p>PO Box 38</p>
+          <p>Davey, NE</p>
+          <p>402&ndash;785&ndash;2365</p>
+          <p>otteoil@hotmail.com</p>
+        </div>
+        <div class="small-4 large-4 medium-4 columns">
+          <h2>Like us on Facebook!</h2>
+          <img src="http://placehold.it/150" alt="facebook icon"/>
+          <form>
+            Send us an email now!<br>
+            <input type="text" name="firstname">
+            <br>
+            <input type="submit" value="send">
+          </form>
+        </div>
+        <div class="large-4 medium-4 columns"><a href="http://www.propane.com/on-road-fleets/"><img src="images/logo-propane-autogas.png" alt="propane autogas logo"/></a>
+          <a href="http://www.nebraskapropane.com/"><img src="images/logo-npga.png" alt="propane association logo"/></a>
+        </div>
+        </div>
+>>>>>>> FETCH_HEAD
       <!--sitemap links-->
      <div class="row link">
       <div class="columns large-4">

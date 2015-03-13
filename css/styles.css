@@ -10,6 +10,13 @@ dl div, dl li {
 	font-size:12px;
 }
 
+.column,
+.columns {
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+  float: left; }
+
 .map-overlay {
    background:transparent; 
    position:relative; 
@@ -18,3 +25,122 @@ dl div, dl li {
    top:480px;
    margin-top:-480px;
 }
+
+
+/*Tab Styling*/
+.tabs dd, .tabs .tab-title {
+  border-right: 2px solid #fff;
+  position:relative;
+}
+
+.tabs dd > a, .tabs .tab-title > a {
+  background-color: #182F4E;
+  color: #fff;
+  border-bottom: 7px solid #182F4E;
+}
+
+.tabs dd.active a, .tabs .tab-title.active a {
+  background-color: #182F4E;
+  color: #fff;
+  border-bottom:7px solid #C05A44;
+}
+
+.tabs dd.active a:after, .tabs .tab-title.active a:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 40%;
+  width: 20%;
+  height: 0;
+  border-color: #C05A44 transparent transparent transparent;
+  border-style: solid;
+  border-width: 15px;
+}
+
+.tab-title {
+	width:20%;
+}
+
+.tabs {
+  margin-bottom: 0 !important;
+  margin-left:; }
+  .tabs:before, .tabs:after {
+    content: " ";
+    display: table; }
+  .tabs:after {
+    clear: both; }
+  .tabs dd, .tabs .tab-title {
+    position: relative;
+    margin-bottom: 0 !important;
+    list-style: none;
+    float: left; }
+    .tabs dd > a, .tabs .tab-title > a {
+      display: block;
+      background-color: #182F4E;
+      color: #222222;
+      padding: 1rem;
+	  padding-bottom:.75rem;
+      font-family: PT Sans, sans serif;
+      font-size: 1rem; }
+      .tabs dd > a:hover, .tabs .tab-title > a:hover {
+        background-color: #1f3654; }
+      .tabs dd > a:focus, .tabs .tab-title > a:focus {
+        outline: none; }
+    .tabs dd.active a, .tabs .tab-title.active a {
+      background-color: #182F4E;
+      color: #222222; }
+	  
+.tab-title a h2 {
+	font-size:20px;
+	color:white;
+	text-align:center
+}
+
+<<<<<<< Updated upstream
+
+
+/*Footer styles*/
+footer h2, footer a {
+	font-size:16px;
+}
+
+footer p{
+	font-size:12px;
+}
+
+form {
+	font-size:12px;
+}
+
+/*Navigation Styles*/
+<<<<<<< HEAD
+.top-bar-section {
+	color: #182F4E;
+	background-color: #FFF;
+}
+=======
+.top-bar-section ul li.active > a {
+      background: #C05A44;
+      color: #FFFFFF; }
+	  
+.top-bar-section ul li.active > a:hover {
+        background: #C05A44;
+        color: #FFFFFF; }
+	  
+.top-bar-section ul li > a {
+      display: block;
+      width: 100%;
+      color: #FFFFFF;
+      padding: 12px 0 12px 0;
+      padding-left: 0.9375rem;
+      font-family: PT Sans, sans serif;
+      font-size: 0.8125rem;
+      font-weight: normal;
+      text-transform: none; }
+	  
+>>>>>>> Stashed changes
+=======
+
+>>>>>>> origin/master
+
