@@ -114,12 +114,12 @@ form {
 }
 
 /*Navigation Styles*/
-
+<<<<<<< HEAD
 .top-bar-section {
 	color: #182F4E;
 	background-color: #FFF;
 }
-
+=======
 .top-bar-section ul li.active > a {
       background: #C05A44;
       color: #FFFFFF; }
@@ -139,5 +139,8 @@ form {
       font-weight: normal;
       text-transform: none; }
 	  
+>>>>>>> Stashed changes
+=======
 
+>>>>>>> origin/master
 
