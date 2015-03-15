@@ -10,12 +10,6 @@ dl div, dl li {
 	font-size:12px;
 }
 
-.column,
-.columns {
-  padding-left: 0;
-  padding-right: 0;
-  width: 100%;
-  float: left; }
 
 .map-overlay {
    background:transparent; 
