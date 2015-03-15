@@ -45,12 +45,12 @@ form{
 small{
 	color:#D7E8F1;
 }
-li {
+.bottomnav{
      list-style:none;
      display:inline-block;
      float: left;
      font-size: 12px;
-	 color:#1B437A;
+	   color:#1B437A;
 }
 .block{
 	color:#D7E8F1; 
