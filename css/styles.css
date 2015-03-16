@@ -109,18 +109,21 @@ form {
 }
 
 /*Navigation Styles*/
-<<<<<<< HEAD
 .top-bar-section {
 	color: #182F4E;
-	background-color: #FFF;
+	background-color: #FFFFFF;
 }
-=======
-.top-bar-section ul li.active > a {
+
+.top-bar-section ul li:hover:not(.has-form) > a {
+      background-color: red;
+      background: #333333;
+      color: #FFFFFF; }
+    .top-bar-section ul li.active > a {
       background: #C05A44;
       color: #FFFFFF; }
 	  
 .top-bar-section ul li.active > a:hover {
-        background: #C05A44;
+        background: #D4674F;
         color: #FFFFFF; }
 	  
 .top-bar-section ul li > a {
@@ -134,8 +137,3 @@ form {
       font-weight: normal;
       text-transform: none; }
 	  
->>>>>>> Stashed changes
-=======
-
->>>>>>> origin/master
-
