@@ -92,7 +92,6 @@ dl div, dl li {
 	text-align:center
 }
 
-<<<<<<< Updated upstream
 
 
 /*Footer styles*/
@@ -108,34 +107,10 @@ form {
 	font-size:12px;
 }
 
-/*Navigation Styles*/
-.top-bar-section {
-	color: #182F4E;
-	background-color: #FFFFFF;
-}
 
-.top-bar-section ul li:hover:not(.has-form) > a {
-      background-color: red;
-      background: #333333;
-      color: #FFFFFF; }
-    .top-bar-section ul li.active > a {
-      background: #C05A44;
-      color: #FFFFFF; }
-	  
-.top-bar-section ul li.active > a:hover {
-        background: #D4674F;
-        color: #FFFFFF; }
-	  
-.top-bar-section ul li > a {
-      display: block;
-      width: 100%;
-      color: #FFFFFF;
-      padding: 12px 0 12px 0;
-      padding-left: 0.9375rem;
-      font-family: PT Sans, sans serif;
-      font-size: 0.8125rem;
-      font-weight: normal;
-      text-transform: none; }
+	 
+/*Hero Image Styles*/
+
 	  
 @media only screen and (max-width: 40em) {
 	.tab-title a h2 {
