@@ -75,6 +75,10 @@ h2 {
   right: 8px;
 }
 
+.feature{
+	margin-bottom: 75px;
+}
+
 footer{
 	clear: both;
 }
