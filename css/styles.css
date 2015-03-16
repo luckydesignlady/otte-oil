@@ -137,3 +137,9 @@ form {
       font-weight: normal;
       text-transform: none; }
 	  
+@media only screen and (max-width: 40em) {
+	.tab-title a h2 {
+		font-size:11px;
+	}
+}
+	  
