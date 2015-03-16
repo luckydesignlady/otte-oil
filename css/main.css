@@ -7,6 +7,18 @@ body {
   font-family: PT Sans, Helvetica, sans serif;
 }
 
+.clear {
+	clear: both;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+.tabs h2 {
+	font-size: 25px;
+}
+
 .container {
   position:relative;
   height:480px;
