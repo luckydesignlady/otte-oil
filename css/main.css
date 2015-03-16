@@ -78,6 +78,15 @@ h2 {
 .feature{
 	margin-top: 125px;
 	margin-bottom: 125px;
+	color: white;
+}
+
+.feature h2{
+	color: white;
+}
+
+.index-feature{
+	background-color: #182F4E;
 }
 
 footer{
