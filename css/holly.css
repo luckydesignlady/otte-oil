@@ -85,6 +85,39 @@ form{
   font-size: 16px;
   transform: translateZ(0);
 }
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+  background: #C05A44;
+}
+.top-bar-section li.active:not(.has-form) a:not(.button):hover {
+  background: #C05A44;
+}
+.top-bar {
+  background: #182F4E;
+
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+  padding: 0 0.9375rem;
+  line-height: 2.8125rem;
+  background: #182F4E;
+}
+.top-bar-section ul li {
+  background: #182F4E;
+}
+.top-bar-section ul li > a {
+  display: block;
+  width: 100%;
+  color: #D7E8F1;
+  padding: 12px 0 12px 0;
+  padding-left: 0.9375rem;
+  font-family: PT Sans, sans serif;
+  font-size: 0.8125rem;
+  font-weight: normal;
+  text-transform: none;
+}
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+  background-color: #C05A44;
+  background: #D7E8F1;
+}
 @media only screen and (max-width: 40.063em) {
   .top-bar-section li.active:not(.has-form) a:not(.button) {
     background: #C05A44;
@@ -94,13 +127,15 @@ form{
   }
   .top-bar {
     background: #182F4E;
-    overflow: visible;
   }
   .top-bar-section li:not(.has-form) a:not(.button) {
     padding: 0 0.9375rem;ß
     line-height: 2.8125rem;
     background: #182F4E;
   }
+  .top-bar-section ul li {
+  background: #182F4E;
+}
   .top-bar-section ul li > a {
     display: block;
     width: 100%;
