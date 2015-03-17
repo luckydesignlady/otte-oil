@@ -5,6 +5,20 @@ a {
 a:hover, a:focus {
   color: #C05A44;
 }
+h2 {
+  font-size: 40px;
+  color: #182F4E;
+  font-weight: bold;
+  
+}
+h3 {
+  color: #182F4E;
+ 
+  font-weight: bold;
+}
+.tab-title a h2 {
+  font-weight: normal;
+}
 
 /*colors ,#182F4E= dark blue, #D7E8F1= light blue, #1B437A mid blue, #C05A44=orange*/
 

@@ -13,6 +13,12 @@ body {
 
 h2 {
 	font-size: 40px;
+  color: #182F4E;
+  font-style: bold;
+}
+h3 {
+  color: #182F4E;
+  font-style: bold;
 }
 
 .tabs h2 {
