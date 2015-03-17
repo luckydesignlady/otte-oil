@@ -30,6 +30,9 @@ footer{
 footer .row {
   max-width: 62.5rem;
 }
+footer h2{
+  font-weight: normal;
+}
 
 .contact h2{
 	font-size:15pt; 
