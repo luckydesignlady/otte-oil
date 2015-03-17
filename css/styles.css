@@ -247,7 +247,7 @@ form {
   width: inherit; height: inherit;
   transform: skewY(-30deg) rotate(60deg) translate(50%);
   
-  background: url(http://hubblesite.org/gallery/graphics/gallery_picture_album_background.jpg);
+  background: url(../images/propane-refill-tank.jpg);
   background-size: cover;
   content: '';
 }
@@ -267,7 +267,7 @@ form {
   width: inherit; height: inherit;
   transform: skewY(-30deg) rotate(60deg) translate(50%);
   
-  background: url(http://hubblesite.org/gallery/graphics/gallery_picture_album_background.jpg);
+  background:url(../images/propane-refill-tank%20copy.jpg);
   background-size: cover;
   content: '';
 }
