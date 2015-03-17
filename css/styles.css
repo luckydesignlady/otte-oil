@@ -229,9 +229,27 @@ form {
 	background-color:#D7E8F1;
 }
 
+#pick-up {
+	padding-top:10px;
+}
+
 .row {
   max-width:none;
 }
+
+.accordion {
+	padding-bottom:20px;
+}
+
+.accordion .accordion-navigation > a, .accordion dd > a {
+      background: #1B437A;
+      color: white;
+}
+.accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
+        background: #204E8C; }
+		
+.accordion .accordion-navigation.active > a, .accordion dd.active > a {
+      background: #182F4E; }
 
 @media only screen and (min-width: 40.063em) { 
 .triangle-home {
@@ -257,10 +275,11 @@ form {
 .triangle-home {
   /**/ overflow: hidden; /**/
   /** outline: solid 1px red; /**/
-  margin-top:-85px;
-  width: 19.052em; height: 22em;
+  margin-top:-120px;
+  width: 25em; height: 30em;
   transform: rotate(60deg) skewY(30deg);
   margin-left:-15px;
+  margin-bottom:110px;
 }
 .triangle-home:before {
   display: block; /* to be able to apply width/ height/ transform */
@@ -273,7 +292,86 @@ form {
 }
 }
 
+@media only screen and (min-width: 40.063em) { 
+.triangle-support-top {
+  /**/ overflow: hidden; /**/
+  /** outline: solid 1px red; /**/
+  margin-top:0;
+  width: 14.289em; height: 16.5em;
+  transform: rotate(60deg) skewY(30deg);
+  margin-left:-15px;
+}
+.triangle-support-top:before {
+  display: block; /* to be able to apply width/ height/ transform */
+  width: inherit; height: inherit;
+  transform: skewY(-30deg) rotate(60deg) translate(50%);
+  
+  background: url(http://hubblesite.org/gallery/graphics/gallery_picture_album_background.jpg);
+  background-size: cover;
+  content: '';
+}
+}
 
+@media only screen and (min-width: 64.063em) { 
+.triangle-support-top {
+  /**/ overflow: hidden; /**/
+  /** outline: solid 1px red; /**/
+  margin-top:-120px;
+  width: 25em; height: 30em;
+  transform: rotate(60deg) skewY(30deg);
+  margin-left:-15px;
+  margin-bottom:110px;
+}
+.triangle-support-top:before {
+  display: block; /* to be able to apply width/ height/ transform */
+  width: inherit; height: inherit;
+  transform: skewY(-30deg) rotate(60deg) translate(50%);
+  
+  background: url(http://hubblesite.org/gallery/graphics/gallery_picture_album_background.jpg);
+  background-size: cover;
+  content: '';
+}
+}
+
+@media only screen and (min-width: 40.063em) { 
+.triangle-support-bottom {
+  /**/ overflow: hidden; /**/
+  /** outline: solid 1px red; /**/
+  margin-top:80px;
+  margin-right:0;
+  width: 14.289em; height: 16.5em;
+  transform: rotate(-120deg) skewY(30deg);
+}
+.triangle-support-bottom:before {
+  display: block; /* to be able to apply width/ height/ transform */
+  width: inherit; height: inherit;
+  transform: skewY(-30deg) rotate(60deg) translate(50%);
+  
+  background: url(http://hubblesite.org/gallery/graphics/gallery_picture_album_background.jpg);
+  background-size: cover;
+  content: '';
+}
+}
+
+@media only screen and (min-width: 64.063em) { 
+.triangle-support-bottom {
+  /**/ overflow: hidden; /**/
+  /** outline: solid 1px red; /**/
+  margin-top:150px;
+  margin-bottom:-100px;
+  width: 27.712em; height: 32em;
+  transform: rotate(-120deg) skewY(30deg);
+}
+.triangle-support-bottom:before {
+  display: block; /* to be able to apply width/ height/ transform */
+  width: inherit; height: inherit;
+  transform: skewY(-30deg) rotate(60deg) translate(50%);
+  
+  background: url(http://hubblesite.org/gallery/graphics/gallery_picture_album_background.jpg);
+  background-size: cover;
+  content: '';
+}
+}
 
 @media only screen and (max-width: 40em) {
 	.tab-title a h2 {
