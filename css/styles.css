@@ -165,6 +165,10 @@ form {
 	padding-bottom:10px;
 }
 
+.pick-up {
+	background-color:#D7E8F1;
+}
+
 .row {
   max-width:none;
 }
