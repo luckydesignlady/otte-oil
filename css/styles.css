@@ -173,7 +173,7 @@ form {
 
 
  #customer-support-hero {
-        background: url(../images/customer-support-hero.jpg) #D7E8F1;
+        background: url(../images/temp-hero.jpg) #D7E8F1;
         height: 550px;
         text-align: left;
         position: relative;
@@ -265,7 +265,7 @@ form {
   width: inherit; height: inherit;
   transform: skewY(-30deg) rotate(60deg) translate(50%);
   
-  background: url(../images/propane-refill-tank.jpg);
+  background: url(../images/home-our-company.jpg);
   background-size: cover;
   content: '';
 }
@@ -286,7 +286,7 @@ form {
   width: inherit; height: inherit;
   transform: skewY(-30deg) rotate(60deg) translate(50%);
   
-  background:url(../images/propane-refill-tank%20copy.jpg);
+  background: url(../images/home-our-company.jpg);
   background-size: cover;
   content: '';
 }
@@ -306,7 +306,7 @@ form {
   width: inherit; height: inherit;
   transform: skewY(-30deg) rotate(60deg) translate(50%);
   
-  background: url(http://hubblesite.org/gallery/graphics/gallery_picture_album_background.jpg);
+  background:url(../images/customer-support-questions.jpg);
   background-size: cover;
   content: '';
 }
@@ -327,7 +327,7 @@ form {
   width: inherit; height: inherit;
   transform: skewY(-30deg) rotate(60deg) translate(50%);
   
-  background: url(http://hubblesite.org/gallery/graphics/gallery_picture_album_background.jpg);
+  background:url(../images/customer-support-questions.jpg);
   background-size: cover;
   content: '';
 }
@@ -347,7 +347,7 @@ form {
   width: inherit; height: inherit;
   transform: skewY(-30deg) rotate(60deg) translate(50%);
   
-  background: url(http://hubblesite.org/gallery/graphics/gallery_picture_album_background.jpg);
+  background:url(../images/customer-support-map.jpg);
   background-size: cover;
   content: '';
 }
@@ -367,7 +367,7 @@ form {
   width: inherit; height: inherit;
   transform: skewY(-30deg) rotate(60deg) translate(50%);
   
-  background: url(http://hubblesite.org/gallery/graphics/gallery_picture_album_background.jpg);
+  background: url(../images/customer-support-map.jpg);
   background-size: cover;
   content: '';
 }
