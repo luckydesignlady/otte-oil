@@ -140,6 +140,37 @@ form {
       	text-align: center;
       	font-weight: bolder; /*change this later to font bold if available, not faux bold*/
       }
+	  
+	     #our-service-hero {
+        background: url(../images/temp-hero.jpg) #D7E8F1;
+        height: 550px;
+        text-align: left;
+        position: relative;
+        padding: 60px 20px 0 20px; 
+      }
+      @media screen and (max-width: 768px) {
+        #our-service-hero {
+          padding: 40px 5px 30px 5px; } }
+      @media screen and (max-width: 1024px) {
+        #our-service-hero {
+          height: 500px; } }
+      @media screen and (max-width: 768px) {
+        #our-service-hero h1 {
+          font-size: 50px; } }
+
+      #our-service-hero .text-center {
+        position: absolute;
+        margin-left:-20px; /*compensates for padding in hero*/
+        bottom: 20px;
+        width: 100%;
+        font-size: 3rem;
+      	text-transform: uppercase;
+      	line-height: 3.25rem;
+      	color: #C05A44;
+      	text-align: center;
+      	font-weight: bolder; /*change this later to font bold if available, not faux bold*/
+      }
+
 
 
       /* commenting this out for later *//*
