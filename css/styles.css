@@ -173,6 +173,48 @@ form {
   max-width:none;
 }
 
+@media only screen and (min-width: 40.063em) { 
+.triangle {
+  /**/ overflow: hidden; /**/
+  /** outline: solid 1px red; /**/
+  margin-top:0;
+  width: 14.289em; height: 16.5em;
+  transform: rotate(60deg) skewY(30deg);
+  margin-left:-15px;
+}
+.triangle:before {
+  display: block; /* to be able to apply width/ height/ transform */
+  width: inherit; height: inherit;
+  transform: skewY(-30deg) rotate(60deg) translate(50%);
+  
+  background: url(http://hubblesite.org/gallery/graphics/gallery_picture_album_background.jpg);
+  background-size: cover;
+  content: '';
+}
+}
+
+@media only screen and (min-width: 64.063em) { 
+.triangle {
+  /**/ overflow: hidden; /**/
+  /** outline: solid 1px red; /**/
+  margin-top:-80px;
+  width: 20.784em; height: 24em;
+  transform: rotate(60deg) skewY(30deg);
+  margin-left:-15px;
+}
+.triangle:before {
+  display: block; /* to be able to apply width/ height/ transform */
+  width: inherit; height: inherit;
+  transform: skewY(-30deg) rotate(60deg) translate(50%);
+  
+  background: url(http://hubblesite.org/gallery/graphics/gallery_picture_album_background.jpg);
+  background-size: cover;
+  content: '';
+}
+}
+
+
+
 @media only screen and (max-width: 40em) {
 	.tab-title a h2 {
 		font-size:11px;
