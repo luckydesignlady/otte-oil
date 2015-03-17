@@ -93,8 +93,20 @@ dl div, dl li {
 	text-align:center
 }
 
+.customer-support-feature {
+	padding-top:20px;
+}
 
+.our-company {
+	padding-top:20px;
+	padding-bottom:20px;
+}
 
+.our-service-feature {
+	padding-top:20px;
+	padding-bottom:20px;
+}
+	
 /*Footer styles*/
 footer h2, footer a {
 	font-size:13px;
