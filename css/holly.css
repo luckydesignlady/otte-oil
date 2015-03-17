@@ -72,9 +72,7 @@ footer{
 .room {
 	
 }
-form{
-	color:#D7E8F1;
-}
+
 .outside {
 	padding-top: 50px;
 }
@@ -116,30 +114,58 @@ small{
  	-webkit-transition: all 0.3s ease;
  	transition: all 0.3s ease; 
 }
-/*
-	position: relative;
-    margin: 10px 0; 
-    padding: 3px 8px;
-    background: white;
-    border: 1px solid #ccc;
-    -moz-border-radius: 4px;
-    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-    -webkit-border-radius: 4px;
-    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-    border-radius: 4px;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-}*/
-.review input{
-   border-radius: 5px;
-  padding-left: 5px;
-  margin-bottom: 15px;
-  outline: 0;
-  font-weight: bold;
-}
-#contact textarea{
+form{
+  color:#D7E8F1;
   width: 320px;
-  height: 100px;
-  border-radius: 10px; 
-  }  
+  margin: 30px auto;
+  font-size: 16px;
+  transform: translateZ(0);
+}
+form .field {
+  position: relative;
+  margin-bottom: 10px;
+  height: 40px;
+}
+.form .field .placeholder-label {
+  position: absolute;
+  top: 14px;
+  left: 12px;
+  font-weight: 300;
+  color: #aaa;
+  cursor: text;
+  z-index: 200;
+  transition: all 0.25s;
+}
+.form .field .placeholder-label:after {
+  content: ":";
+  opacity: 0;
+  color: #333;
+  transition: all 0.25s;
+}
+.form .field .placeholder-input {
+  position: absolute;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #aaa;
+  font-size: 16px;
+  z-index: 100;
+  transition: all 0.25s;
+}
+.form .field .placeholder-input:focus, .form .field .placeholder-input.not-empty {
+  margin-left: 100px;
+  width: 220px;
+  outline: none;
+}
+.form .field .placeholder-input:focus + .placeholder-label, .form .field .placeholder-input.not-empty + .placeholder-label {
+  color: #333;
+  cursor: default;
+}
+.form .field .placeholder-input:focus + .placeholder-label:after, .form .field .placeholder-input.not-empty + .placeholder-label:after {
+  opacity: 1;
+}
+
+}
+
 
 
