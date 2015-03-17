@@ -5,48 +5,16 @@ a {
 a:hover, a:focus {
   color: #C05A44;
 }
-@media only screen and (min-width: 40.063em) {
-.top-bar-section li.active:not(.has-form) a:not(.button) {
-  background: #C05A44;
-}
-.top-bar-section li.active:not(.has-form) a:not(.button):hover {
-  background: #C05A44;
-}
-.top-bar {
-  background: #182F4E;
-  overflow: visible;
-}
-.top-bar-section li:not(.has-form) a:not(.button) {
-  padding: 0 0.9375rem;
-  line-height: 2.8125rem;
-  background: #182F4E;
-}
-.top-bar-section ul li > a {
-  display: block;
-  width: 100%;
-  color: #D7E8F1;
-  padding: 12px 0 12px 0;
-  padding-left: 0.9375rem;
-  font-family: PT Sans, sans serif;
-  font-size: 0.8125rem;
-  font-weight: normal;
-  text-transform: none;
-}
-.top-bar-section li:not(.has-form) a:not(.button):hover {
-  background-color: #C05A44;
-  background: #D7E8F1;
-}
 
 /*colors ,#182F4E= dark blue, #D7E8F1= light blue, #1B437A mid blue, #C05A44=orange*/
 
 footer{
-	width:100%;
-	height: 625px; 
 	background-color:#182F4E;
-	background-size:100%;
- 	background-position:center;
  	padding-top:60px;
+}
 
+footer .row {
+  max-width: 62.5rem;
 }
 
 .contact h2{
@@ -81,8 +49,6 @@ footer{
 	color:#1B437A;
 	margin-top: 30px;
 }
-
-}
 small{
 	color:#D7E8F1;
 }
@@ -92,9 +58,7 @@ small{
      float: left;
      font-size: 12px;
 	   color:#1B437A;
-
 }
-
 .block{
 	color:#D7E8F1; 
 	background:#D7E8F1;
@@ -121,51 +85,45 @@ form{
   font-size: 16px;
   transform: translateZ(0);
 }
-form .field {
-  position: relative;
-  margin-bottom: 10px;
-  height: 40px;
+@media only screen and (max-width: 40.063em) {
+  .top-bar-section li.active:not(.has-form) a:not(.button) {
+    background: #C05A44;
+  }
+  .top-bar-section li.active:not(.has-form) a:not(.button):hover {
+    background: #C05A44;
+  }
+  .top-bar {
+    background: #182F4E;
+    overflow: visible;
+  }
+  .top-bar-section li:not(.has-form) a:not(.button) {
+    padding: 0 0.9375rem;ß
+    line-height: 2.8125rem;
+    background: #182F4E;
+  }
+  .top-bar-section ul li > a {
+    display: block;
+    width: 100%;
+    color: #D7E8F1;
+    padding: 12px 0 12px 0;
+    padding-left: 0.9375rem;
+    font-family: PT Sans, sans serif;
+    font-size: 0.8125rem;
+    font-weight: normal;
+    text-transform: none;
+  }
+  .top-bar-section li:not(.has-form) a:not(.button):hover {
+    background-color: #C05A44;
+    background: #D7E8F1;
+  }
+  .contact{
+    text-align: center;
+  }
+  .link{
+    text-align: center;
+  }
+  .last{
+    text-align: center;
+  }
 }
-.form .field .placeholder-label {
-  position: absolute;
-  top: 14px;
-  left: 12px;
-  font-weight: 300;
-  color: #aaa;
-  cursor: text;
-  z-index: 200;
-  transition: all 0.25s;
-}
-.form .field .placeholder-label:after {
-  content: ":";
-  opacity: 0;
-  color: #333;
-  transition: all 0.25s;
-}
-.form .field .placeholder-input {
-  position: absolute;
-  width: 100%;
-  padding: 10px;
-  border-radius: 10px;
-  border: 1px solid #aaa;
-  font-size: 16px;
-  z-index: 100;
-  transition: all 0.25s;
-}
-.form .field .placeholder-input:focus, .form .field .placeholder-input.not-empty {
-  margin-left: 100px;
-  width: 220px;
-  outline: none;
-}
-.form .field .placeholder-input:focus + .placeholder-label, .form .field .placeholder-input.not-empty + .placeholder-label {
-  color: #333;
-  cursor: default;
-}
-.form .field .placeholder-input:focus + .placeholder-label:after, .form .field .placeholder-input.not-empty + .placeholder-label:after {
-  opacity: 1;
-}
-
-}
-
-
 
