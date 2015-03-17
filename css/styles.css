@@ -157,9 +157,24 @@ form {
           position: absolute;
           right: 0;
           bottom: 0px; } }*/
+		  
+.three-links-row {
+	background-color:#1B437A;
+	margin:0;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.row {
+  max-width:none;
+}
+
 @media only screen and (max-width: 40em) {
 	.tab-title a h2 {
 		font-size:11px;
 	}
 }
+
+
+	
 	  
