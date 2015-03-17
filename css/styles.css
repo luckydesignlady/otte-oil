@@ -161,8 +161,8 @@ form {
 .three-links-row {
 	background-color:#1B437A;
 	margin:0;
-	padding-top:25px;
-	padding-bottom:25px;
+	padding-top:10px;
+	padding-bottom:10px;
 }
 
 .pick-up {
@@ -174,7 +174,7 @@ form {
 }
 
 @media only screen and (min-width: 40.063em) { 
-.triangle {
+.triangle-home {
   /**/ overflow: hidden; /**/
   /** outline: solid 1px red; /**/
   margin-top:0;
@@ -182,7 +182,7 @@ form {
   transform: rotate(60deg) skewY(30deg);
   margin-left:-15px;
 }
-.triangle:before {
+.triangle-home:before {
   display: block; /* to be able to apply width/ height/ transform */
   width: inherit; height: inherit;
   transform: skewY(-30deg) rotate(60deg) translate(50%);
@@ -194,15 +194,15 @@ form {
 }
 
 @media only screen and (min-width: 64.063em) { 
-.triangle {
+.triangle-home {
   /**/ overflow: hidden; /**/
   /** outline: solid 1px red; /**/
-  margin-top:-80px;
-  width: 20.784em; height: 24em;
+  margin-top:-85px;
+  width: 19.052em; height: 22em;
   transform: rotate(60deg) skewY(30deg);
   margin-left:-15px;
 }
-.triangle:before {
+.triangle-home:before {
   display: block; /* to be able to apply width/ height/ transform */
   width: inherit; height: inherit;
   transform: skewY(-30deg) rotate(60deg) translate(50%);
