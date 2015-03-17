@@ -31,7 +31,7 @@ dl div, dl li {
 .tabs dd > a, .tabs .tab-title > a {
   background-color: #182F4E;
   color: #fff;
-  border-bottom: 7px solid #182F4E;
+  border-bottom: 7px solid;
 }
 
 .tabs dd.active a, .tabs .tab-title.active a {
@@ -59,7 +59,8 @@ dl div, dl li {
 
 .tabs {
   margin-bottom: 0 !important;
-  margin-left:; }
+   }
+   
   .tabs:before, .tabs:after {
     content: " ";
     display: table; }
