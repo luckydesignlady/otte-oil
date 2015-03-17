@@ -3,9 +3,8 @@ a {
   color: #D7E8F1;
 }
 a:hover, a:focus {
-  color: #D7E8F1;
+  color: #C05A44;
 }
-
 @media only screen and (min-width: 40.063em) {
 .top-bar-section li.active:not(.has-form) a:not(.button) {
   background: #C05A44;
