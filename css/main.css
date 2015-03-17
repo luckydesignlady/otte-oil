@@ -75,6 +75,20 @@ h2 {
   right: 8px;
 }
 
+.triangle_right {
+  margin: 0px;
+  width:0;
+  height:0;
+  border-left:490px solid black;
+  border-bottom:380px solid transparent;
+  border-top:380px solid transparent; 
+}
+
+.company {
+	margin-top: -281px;
+	margin-bottom: 212px;
+}
+
 .feature{
 	margin-top: 125px;
 	margin-bottom: 125px;
